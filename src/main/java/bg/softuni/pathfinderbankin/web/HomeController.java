@@ -23,6 +23,12 @@ public class HomeController {
 //        return mvn;
 //    }
 
+    /**
+     *
+     * @param model
+     * @return Second commit
+     */
+
     @GetMapping("/")
     public String index(Model model){
         double sofiaTemp= new Random().nextDouble();
@@ -31,4 +37,6 @@ public class HomeController {
 
         return "index";
     }
+
+
 }
